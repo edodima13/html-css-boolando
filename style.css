@@ -1,0 +1,68 @@
+.card {
+    width: 380px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.card-image{
+    height: 560px;
+}
+.img1{
+    width: 100%;   
+}
+
+.img2{
+    width: 100%;   
+}
+
+.heart{
+    width: 26px;;
+    background-color: white;
+    padding: 7px;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    top: -500px;
+    right: -340px;
+}
+
+.card-image .img1{
+    display: block;
+}
+
+.card-image .img2{
+    display: none;
+}
+
+.card-image:hover .img1{
+    display: none;
+}
+
+.card-image:hover .img2{
+    display: block;
+}
+
+button{
+    color: white;
+    border: none;
+}
+.btn1{
+    width: 40px;
+    background-color: red;
+}
+
+.btn2{
+    width: 90px;
+    background-color: green;
+}
+
+.bottoni{
+    position: absolute;
+    top: 520px;
+}
+p{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
