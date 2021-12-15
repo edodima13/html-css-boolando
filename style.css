@@ -1,68 +1,63 @@
-.card {
-    width: 380px;
-    height: 500px;
-    margin-left: 70px;
-    margin-top: 30px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
 }
-.card-image{
-    height: 560px;
+.container{
+    max-width: 1084px;
+    margin: 0 auto;
+    position: relative;
+} 
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 15px;
+}
+img{
+    max-width: 100%;
 }
 .img1{
-    width: 100%;   
-}
-
-.img2{
-    width: 100%;   
-}
-
-.heart{
-    width: 26px;;
-    background-color: white;
-    padding: 7px;
-    text-align: center;
-    font-size: larger;
-    position: relative;
-    top: -500px;
-    right: -340px;
-}
-
-.card-image .img1{
-    display: block;
-}
-
-.card-image .img2{
-    display: none;
-}
-
-.card-image:hover .img1{
-    display: none;
-}
-
-.card-image:hover .img2{
-    display: block;
-}
-
-button{
-    color: white;
-    border: none;
-}
-.btn1{
-    width: 40px;
-    background-color: red;
-}
-
-.btn2{
-    width: 90px;
-    background-color: green;
-}
-
-.bottoni{
     position: absolute;
-    top: 520px;
+    top: 0;
+    left: 0;
 }
-p{
-    margin: 0;
+
+.hover:hover{
+    display: none;
 }
-h4{
-    margin: 0;
+.heart{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.card-info{
+    position: absolute;
+    top: 490px;
+}
+.sale{
+    background-color: red;
+    color: white;
+}
+.sale, .comm{
+    font-size: 10px;
+    color: white;
+    padding: 4px;
+   
+}
+.comm{
+    background-color: green;
+    color: white;
+}
+.LP{
+   color: red; 
+}
+.HP{
+   text-decoration: line-through;
 }
